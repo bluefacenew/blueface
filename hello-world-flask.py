@@ -1,3 +1,8 @@
+import pkg_resources
+pkg_resources.require("Twisted==8.2.0")
+import twisted
+
+
 from flask import Flask
 app = Flask(__name__)
 
